@@ -1,43 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@300;400;500;600;700 & family= Roboto+Mono:wght@700 & display=swap');
 
 * {
     box-sizing: border-box;
     /* garante que o elemento ocupa no maximo o espaço definido no width */
 }
 
-body, footer {
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand','sans-serif';
+    font-family: 'Quicksand';
 }
 
 header {
     background-color: #4CAF50;
-    max-width: 1280px; 
-    max-height: 55px;  
-    display: flex;
-    justify-content:space-around; 
-}  
+}
 
 header ul {
     margin: 20;
     list-style: none;
-    padding: 0;  
+    padding: 0;
     text-align: center;
-} 
+}
 
 header ul li {
-    display:inline-table;
-    padding: 10px 15px; 
+    display: inline-table;
+    padding: 10px 15px;
 }
 
 header ul li a {
     text-decoration: none;
     color: #FDFDFD;
-} 
+}
+
+main h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+h5.card-title {
+    text-align: center;
+    color: #4CAF50;
+
+}
+
+main p.valor {
+    text-align: center;
+    font-size: 30px;
+    color: #4CAF50;
+    line-height: 39.57px;
+    font-weight: bold;
+}
+
+.card-body a {
+    background-color: #4CAF50;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+}
 
 footer {
-    background-color: #FFC107;
+    background-color: #4CAF50;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
@@ -50,9 +76,40 @@ footer .container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 footer p {
-    padding: 0 15px;
+    margin: 0;
+}
+
+footer .col p {
+    font-size: small;
+    text-align: left;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: -50px -100px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    display:table-row;  
+    padding:10px 15px; 
+    color:#FFF; 
+} 
+
+footer ul li {
+    text-decoration: none;
+    display:table-row;    
+}
+
+footer .row {
+    margin: 0px 90px;
+}
+
+footer .copyright {
+    text-align: center;
+    border-top: 1.5px solid #fff;
+    padding: 10px; 
+    font-size: 12px;
 }
