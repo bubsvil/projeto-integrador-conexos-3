@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* garante que o elemento ocupa no maximo o espaço definido no width */
+}
+
+body, footer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand','sans-serif';
+}
+
+header {
+    background-color: #4CAF50;
+    max-width: 1280px; 
+    max-height: 55px;  
+    display: flex;
+    justify-content:space-around; 
+}  
+
+header ul {
+    margin: 20;
+    list-style: none;
+    padding: 0;  
+    text-align: center;
+} 
+
+header ul li {
+    display:inline-table;
+    padding: 10px 15px; 
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #FDFDFD;
+} 
+
+footer {
+    background-color: #FFC107;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 0 15px;
+}
