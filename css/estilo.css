@@ -5,6 +5,7 @@
     /* garante que o elemento ocupa no maximo o espaço definido no width */
 }
 
+/* HEADER */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
 
 header {
     background-color: #4CAF50;
-}
+} 
 
 header ul {
     margin: 20;
@@ -24,24 +25,26 @@ header ul {
 
 header ul li {
     display: inline-table;
-    padding: 10px 15px;
-}
+    padding: 10px 15px; 
+} 
 
 header ul li a {
     text-decoration: none;
     color: #FDFDFD;
-}
+} 
 
+/* PLANOS */
 main h2 {
-    text-align: center;
     color: #4CAF50;
 }
 
 h5.card-title {
-    text-align: center;
     color: #4CAF50;
-
 }
+
+p.card-text {
+    text-align:start;
+} 
 
 main p.valor {
     text-align: center;
@@ -54,14 +57,15 @@ main p.valor {
 .card-body a {
     background-color: #4CAF50;
     color: #FFF;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 5px 25px;
+    padding: 6px 35px;
     text-decoration: none;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 50px;  
+    text-align:center; 
 }
 
+/* FOOTER */
 footer {
     background-color: #4CAF50;
     color: #fff;
