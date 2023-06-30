@@ -63,6 +63,22 @@ main p.valor {
     text-decoration: none;
     border-radius: 50px;  
     text-align:center; 
+} 
+/* PÁGINA DOS PLANOS */  
+
+.info-planos{
+    padding: 0px 80px; 
+    text-align: left;    
+}
+
+.info-planos h3 { 
+    color: #4CAF50;  
+}  
+
+.info-planos p.valor {
+    color: #4CAF50; 
+    font-size: 20px; 
+    text-align: left;
 }
 
 /* FOOTER */
