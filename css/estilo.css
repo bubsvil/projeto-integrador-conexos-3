@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@300;400;500;600;700 & family= Roboto+Mono:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -26,13 +26,17 @@ header ul {
 header ul li {
     display: inline-table;
     padding: 10px 15px; 
-} 
+}
 
 header ul li a {
     text-decoration: none;
     color: #FDFDFD;
-} 
+}   
 
+button.btn-success {
+    background-color: #4CAF50; 
+    border-color: #4CAF50;
+}
 /* PLANOS */
 main h2 {
     color: #4CAF50;
@@ -150,9 +154,9 @@ footer .col p {
     padding: -50px -100px;
 }
 
-footer ul li a {
+footer ul li a,
+footer ul li button.btn-success {
     text-decoration: none;
-    display:table-row;  
     padding:10px 15px; 
     color:#FFF; 
 } 
@@ -171,4 +175,5 @@ footer .copyright {
     border-top: 1.5px solid #fff;
     padding: 10px; 
     font-size: 12px;
-}
+} 
+
