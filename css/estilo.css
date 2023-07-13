@@ -16,6 +16,13 @@ header {
     background-color: #4CAF50;
 } 
 
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+
 header ul {
     margin: 20;
     list-style: none;
@@ -23,9 +30,10 @@ header ul {
     text-align: center;
 }
 
+
 header ul li {
     display: inline-table;
-    padding: 10px 15px; 
+   padding: 10px 15px;
 }
 
 header ul li a {
@@ -195,3 +203,11 @@ form .Titulo-form-plano {
     display: flex;
     justify-content: center;
 }
+.btn-primary {
+    background-color: #388E3c;
+ }
+ .planos-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+ }
