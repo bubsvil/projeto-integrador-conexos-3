@@ -121,6 +121,31 @@ main p.valor {
     cursor: pointer;
 }
 
+/* main solicitação de status*/
+.solicitacao-1 {
+    padding: 100px 0;
+}
+
+.solicitacao-1 h2{
+    text-align: right;
+font-size: 42px;
+padding: 0 0 30px;
+color: #4CAF50;
+font-weight: bold;
+}
+
+.visita {
+text-align: right;
+width: 100%;
+font-size: 23px;
+}
+
+.button a{
+    text-align: right ;
+    border-radius: 50px;
+    background-color: #4CAF50;
+    padding: 6px 35px;
+}
 
 
 
