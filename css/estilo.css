@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #4CAF50;
-} 
+}
 
 header ul {
     margin: 20;
@@ -25,19 +25,21 @@ header ul {
 
 header ul li {
     display: inline-table;
-    padding: 10px 15px; 
+    padding: 10px 15px;
 }
 
 header ul li a {
     text-decoration: none;
     color: #FDFDFD;
-}   
+}
 
 button.btn-success {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     border-color: #4CAF50;
-}
-/* PLANOS */
+} 
+
+/* PLANOS */ 
+
 main h2 {
     color: #4CAF50;
 }
@@ -47,8 +49,8 @@ h5.card-title {
 }
 
 p.card-text {
-    text-align:start;
-} 
+    text-align: start;
+}
 
 main p.valor {
     text-align: center;
@@ -62,49 +64,104 @@ main p.valor {
     background-color: #4CAF50;
     color: #FFF;
     font-size: 15px;
-    font-weight: bold;
     padding: 6px 35px;
     text-decoration: none;
-    border-radius: 50px;  
-    text-align:center; 
-} 
-/* PÁGINA DOS PLANOS */  
-
-.info-planos{
-    padding: 0px 80px; 
-    text-align: left;    
+    border-radius: 50px;
+    text-align: center;
 }
 
-.info-planos h3 { 
-    color: #4CAF50;  
-}  
+/* STATUS SOLICITAÇÃO */
+.solicitacao-1 {
+    padding: 100px 0;
+}
 
-.info-planos p.valor {
-    color: #4CAF50; 
-    font-size: 20px; 
+.solicitacao-1 h2{
+text-align: right;
+font-size: 42px;
+padding: 0 0 30px;
+color: #4CAF50;
+font-weight: bold; 
+}
+
+.visita {
+text-align: right;
+width: 100%;
+font-size: 23px;
+}
+
+.button a{
+    text-align: right ;
+    border-radius: 50px;
+    background-color: #4CAF50;
+    padding: 6px 35px;
+}
+/* PÁGINA DOS PLANOS */
+
+.info-planos {
+    padding: 0px 80px;
+}
+
+.info-planos h3 {
+    color: #4CAF50;
+}
+
+p.text-left {
+    color: #4CAF50;
+    font-size: 25px;
     text-align: left;
+    font-weight: bold; 
 }
+
+form .Titulo-form-plano {
+    display: flex;
+    justify-content: center;
+    color: #4CAF50;
+}
+
+.form-container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.form-select {
+    font-size: small;
+}
+.card-text{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.btn-primary {
+    background-color: #388E3c;
+ }
+ .planos-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+ }
 
 /*Status de solicitaçoes*/
 
-.solicitaçao{
-    padding: 30px 70px; 
+.solicitaçao {
+    padding: 30px 70px;
     display: flex;
     justify-content: space-evenly;
 }
-.solicitaçao h2{
+
+.solicitaçao h2 {
     color: #4CAF50;
 }
 
 
-.card-soli p{
+.card-soli p {
     width: 100%;
     border: 1px solid #212121;
     border-radius: 7px;
     padding: 10px;
     margin: 5px 0;
 }
-.card-soli a{
+
+.card-soli a {
     font-size: 16px;
     background-color: #4CAF50;
     color: #fff;
@@ -115,13 +172,12 @@ main p.valor {
     border-radius: 30px;
     transition: 0.5s;
 }
-.card-soli a:hover{
+
+.card-soli a:hover {
     background-color: #388E3c;
     border-color: #388E3c;
     cursor: pointer;
 }
-
-
 
 
 /* FOOTER */
@@ -157,13 +213,13 @@ footer .col p {
 footer ul li a,
 footer ul li button.btn-success {
     text-decoration: none;
-    padding:10px 15px; 
-    color:#FFF; 
-} 
+    padding: 10px 15px;
+    color: #FFF;
+}
 
 footer ul li {
     text-decoration: none;
-    display:table-row;    
+    display: table-row;
 }
 
 footer .row {
@@ -173,25 +229,7 @@ footer .row {
 footer .copyright {
     text-align: center;
     border-top: 1.5px solid #fff;
-    padding: 10px; 
-    font-size: 12px;
-} 
-form .Titulo-form-plano {
-    display: flex;
-    justify-content: center;
-    color: #4CAF50;
-}
-
-.form-container {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-}
-.form-select {
-    font-size: small;
-}
-.card-text{
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
+    padding: 10px;
+    font-size: 12px; 
+    text-align: justify;
+}   

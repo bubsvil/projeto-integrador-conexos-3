@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="imagens/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logos/favicon.svg" type="image/x-icon">
     <title>Conexos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -17,54 +17,91 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-between align-content-center">
-                    <img src="imagens/logo-header.svg" alt="Logo Conexos">
+                    <a href="index.html" class="logo-link"><img src="imagens/logos/logo-header.svg" alt="Logo Conexos"
+                            class="logo-header"></a>
                     <nav>
-                        <ul>
+                        <ul class="menu">
                             <li> <a href="index.html">Início</a> </li>
-                            <li> <a href="lista-receitas.html">Planos</a> </li>
-                            <li> <a href="contato.html">Status de solicitações</a> </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn btn-success dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Planos
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="bronze.html">Bronze</a></li>
+                                        <li><a class="dropdown-item" href="prata.html">Prata</a></li>
+                                        <li><a class="dropdown-item" href="ouro.html">Ouro</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li> <a href="status.html">Status de solicitações</a> </li>
                         </ul>
-                    </nav>
+
                 </div>
+                </nav>
             </div>
+        </div>
         </div>
     </header>
 
     <main>
 
+        <div class="solicitaçao">
+            <div class="row-lg column mx-0">
+                <div class="d-flex flex-column flex-lg-row justify-content-center">
+                <div class="col-12 col-md-12col-xl-9">
+                    <h2 class="title my-5">STATUS DE SOLICITAÇÕES</h2>
+                    <p> Contratou o serviço e gostaria de
+                        verificar o andamento?
+                        <br>
+                        Insira o código do pedido no formulário para ver o status<br>atualizado
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-xl-3 align-items-center text-center my-5">
+                    <div class="card text-center mb-5" style="width: 19rem;">
+                        <div class="card-soli">
+                            <div class="card-body">
+                                <n3 class="card-title"><strong>código de verificação</strong></h3>
+                                    <p class="card-text"></p>
+                                    <a href="#" class="btn btn-primary">verificar status</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <img src="imagens/conexos-logo-footer.png" alt="Logo Conexos">
-        </div>
-        <div class="col">
-            <p>Empresa criada visando a diversidade dos clientes.<br>
-                Acreditamos que apresentando de maneira simples<br> os benefícios de cada plano, fica a total
-                escolha<br>do
-                cliente, com um sistema simples para solicitar.</p>
-        </div>
+    <footer class="text-left">
+        <section class="container p-4 pb-2 mb-4 d-flex justify-content-around">
+          <a class="btn" href="index.html"><img class="d-none d-md-block d-xl-block" src="imagens/logos/conexos-logo-footer.png"
+            alt="Logo Conexos"></a>
 
-        <div class="col">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="lista-receitas.html">Planos</a></li>
-                <li><a href="contato.html">Status de solicitações</a></li>
-            </ul>
-        </div>
+            <p class="fs-small fw-lighter text-justify">Empresa criada visando a diversidade dos clientes.
+                Acreditamos que apresentando de maneira simples os benefícios de cada plano, fica a total
+                escolha do cliente, com um sistema simples para solicitar.</p>
+         
+                <ul class="text-left">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="bronze.html">Bronze</a></li>
+            <li><a href="prata.html">Prata</a></li>
+            <li><a href="ouro.html">Ouro</a></li>
+        </ul>
+        </section>
 
+        <div class="copyright">
+        <div class="p-3 text-center fs-small fw-lighter">
+            2023 <i class="bi bi-c-circle"></i> Projeto desenvolvido na academia Aprendiz Vivo Tech - Gama Academy
+        </div>
     </div>
 
-    <div class="copyright">
-        <p>Projeto desenvolvido na academia Aprendiz Vivo Tech - Gama Academy</p>
-    </div>
+    </footer>
 
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
