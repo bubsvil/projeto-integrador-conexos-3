@@ -31,13 +31,13 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: #FDFDFD;
-}
+    color: #fff;  
+} 
 
 button.btn-success {
     background-color: #4CAF50;
     border-color: #4CAF50;
-} 
+}  
 
 /* PLANOS */ 
 
