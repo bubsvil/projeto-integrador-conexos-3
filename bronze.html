@@ -83,7 +83,7 @@
             <div class="card" style="width: 40rem;">
                 <div class="card-body my-2">
                     <form>
-                        <h1 class="Titulo-form-plano my-2">Contratação do plano</h1>
+                        <h1 class="Titulo-form-plano my-2" style="color: #276328">Contratação do plano</h1>
                         <div class="card-text">
                             <div class="col-5">
                                 <div class="mb-3">
@@ -136,21 +136,30 @@
 
     </main>
 
+    
     <footer class="text-left">
         <section class="container p-4 pb-2 mb-4 d-flex justify-content-around">
             <a class="btn" href="index.html"><img class="d-none d-md-block d-xl-block"
                     src="imagens/logos/conexos-logo-footer.png" width="149" height="108" alt="Logo Conexos"></a>
 
-            <p class="fs-small fw-lighter text-justify">Empresa criada visando a diversidade dos clientes.
+            <p class="fs-small fw-lighter text-justify p-2">Empresa criada visando a diversidade dos clientes.
                 Acreditamos que apresentando de maneira simples os benefícios de cada plano, fica a total
                 escolha do cliente, com um sistema simples para solicitar.</p>
 
-            <ul class="text-left">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="prata.html">Prata</a></li>
-                <li><a href="ouro.html">Ouro</a></li>
-                <li><a href="status.html">Status de solicitações</a></li>
-            </ul>
+                <ul class="fw-bold p-0"> 
+                <li> 
+                    <div class="dropup">
+                    <button class="dropbtn fw-bold">Planos</button>
+                    <div class="dropup-content">
+                        <a href="bronze.html">Bronze</a>
+                        <a href="prata.html">Prata</a>
+                        <a href="ouro.html">Ouro</a>
+                    </div>
+                  </div> 
+                </li>
+                  <li><a href="status.html">Status</a></li> 
+                  <li><a href="index.html">Início</a></li>
+                </ul>
         </section>
 
         <div class="copyright">
@@ -160,7 +169,6 @@
         </div>
 
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
