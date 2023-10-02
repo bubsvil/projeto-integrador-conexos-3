@@ -82,20 +82,20 @@
 
             <div class="card" style="width: 40rem;">
                 <div class="card-body my-2">
-                    <form>
+                    <form id="myForm">
                         <h1 class="Titulo-form-plano my-2" style="color: #276328">Contratação do plano</h1>
                         <div class="card-text">
                             <div class="col-5">
                                 <div class="mb-3">
                                     <label for="nome" class="form-label col-form-label-sm my-3">Nome Completo</label>
-                                    <input type="nome" class="form-control" id="Nome">
+                                    <input type="nome" class="form-control" id="nome">
                                 </div>
                                 <div class="mb-3">
                                     <label for="cpf" class="form-label col-form-label-sm">CPF</label>
                                     <input type="cpf" class="form-control" id="cpf">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="Telefone" class="form-label col-form-label-sm">Telefone para
+                                    <label for="telefone" class="form-label col-form-label-sm">Telefone para
                                         contato</label>
                                     <input type="telefone" class="form-control" id="telefone">
                                 </div>
@@ -106,13 +106,13 @@
                                 <div class="mb-3">
                                     <label for="plano" class="form-label col-form-label-sm">Selecione o plano</label>
                                     <select class="form-select">
-                                        <option value="1">Bronze</option>
-                                        <option value="2">Prata</option>
-                                        <option value="3">Ouro</option>
+                                        <option value="Bronze">Bronze</option>
+                                        <option value="Prata">Prata</option>
+                                        <option value="Ouro">Ouro</option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="plano" class="form-label col-form-label-sm">Preferência de horario para
+                                    <label for="horario" class="form-label col-form-label-sm">Preferência de horario para
                                         visita
                                         técnica</label>
                                     <select class="form-select">
@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <div class="d-grid gap">
-                                        <button class="btn btn-success border-0" type="button">Contratar</button>
+                                        <button type="button" id="submitbtn" class="btn btn-success border-0">Contratar</button>
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +172,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
