@@ -182,7 +182,38 @@ form h1 {
     border: 1px solid #276328;
     padding: 5px 15px;
     border-radius: 30px;
-    transition: 0.5s;
+    transition: 0.5s; 
+}
+
+.card-soli p {
+    font-size: small;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
 }
 
 /* FOOTER */

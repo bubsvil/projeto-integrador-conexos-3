@@ -65,15 +65,23 @@
                             <div class="card-soli">
                                 <div class="card-body">
                                     <n3 class="card-title"><strong>código de verificação</strong></h3>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-success mt-2">verificar status</a>
+                                        <p class="card-text fs-small fw-lighter" id="id-value"></p>
+                                        <a href="#" class="btn btn-success mt-2" id="open-modal-button">verificar status</a>
+                    
+                                        <div id="status-modal" class="modal">
+                                            <div class="modal-content">
+                                                <span class="close">&times;</span>
+                                                <h2>Status de Andamento</h2>
+                                                <p id="status-content">Aguardando resposta...</p>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                    </div>
+                    </div>
     </main>
 
     <footer class="text-left">
@@ -111,7 +119,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> 
+        <script src="script-js/script-id.js"></script>
 </body>
 
 </html>
